@@ -1,0 +1,39 @@
+body {
+    background-image: url('https://portogente.com.br/images/reconhecimento-facial.jpg');
+    background-size: auto 110vh;
+    font-family: Arial;
+    height: 100vh;
+}
+
+.menu {
+    background-color: white;
+}
+
+a {
+    color: black;
+    l text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.site-subtitle,
+.site-title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-subtitle {
+    font-style: italic;
+    font-style: bold;
+}

@@ -3,22 +3,136 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LFC Segurança Eletrônica</title>
     <link rel="stylesheet" href="css/lfc.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lateef&family=Roboto:ital,wght@0,400;1,300&family=Source+Code+Pro&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/06c9fd07f2.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
     <header>
         <nav class="menu">
-            <ul>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Portfólio</a></li>
-                <li><a href="#">Contato</a></li>
+            <ul class="container">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos e soluções">Produtos e Soluções</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#suporte">Suporte</a></li>
             </ul>
         </nav>
-        <h1 class="site-title">LFC Segurança Eletrônica</h1>
-        <h2 class="site-subtitle">Controle de Acesso/CFTV</h2>
+        <div class="titulo">
+            <h1 class="site-title">LFC Segurança Eletrônica</h1>
+            <h2 class="site-subtitle">Controle de Acesso/CFTV</h2>
+            <h3 class="site-frase">O trabalho com qualidade, respeito ao meio ambiente e segurança, gera progresso e confiança.</h3>
+        </div>
     </header>
+    <section class="sobre container" id="sobre">
+        <h2>Sobre</h2>
+        <div class="grid .sobre">
+            <figure class="avatar">
+                <img src="./img/logo.jpg" alt="LFC Segurança Eletrônica">
+            </figure>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. A voluptatum, doloribus soluta, dolore, debitis fugiat ducimus quisquam ullam porro aliquam at quibusdam neque autem libero aut quam tenetur nesciunt omnis! Corporis totam fugit labore reiciendis
+                iusto illo autem officia veritatis odit. Voluptate eum rerum illum, minima quis praesentium hic suscipit nihil commodi est mollitia autem quidem enim repudiandae saepe placeat. Voluptatibus necessitatibus molestiae ullam vero? Commodi
+                odio nostrum rerum libero quas, totam sequi nisi enim, non aperiam optio aliquid. Totam accusamus nisi ab provident. Architecto maxime reprehenderit eos delectus accusamus? Illum debitis aspernatur vero laborum totam error tempore similique
+                explicabo vitae? Sint, debitis labore quisquam cum ipsam maiores odit dolore id eligendi officia magni minima quibusdam cumque, numquam accusantium dolorem.
+            </p>
+        </div>
+
+    </section>
+    <section class="produtos container" id="produtos e soluções">
+        <h2>Produtos e Soluções</h2>
+
+        <div class="grid">
+
+            <div class="flip-card">
+                <div class="card">
+                    <figure class="card-front">
+                        <img class="img-produtos" src="./img/cancela.jpg" alt="cancela">
+                    </figure>
+                    <div class="card-back">
+                        <figcaption>cancela</figcaption>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="card">
+                    <figure>
+                        <img class="img-produtos" src="./img/catracas.jpg" alt="catracas">
+                    </figure>
+                    <div class="card-back">
+                        <figcaption>catracas</figcaption>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="card">
+                    <figure>
+                        <img class="img-produtos" src="./img/cftv.jpg" alt="cftv">
+                    </figure>
+                    <div class="card-back">
+                        <figcaption>cftv</figcaption>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="card">
+                    <figure>
+                        <img class="img-produtos" src="./img/manutencao.jpg" alt="cftv">
+                    </figure>
+                    <div class="card-back">
+                        <figcaption>Manutenção e instalação de CFTV</figcaption>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="card">
+                    <figure>
+                        <img class="img-produtos" src="./img/controledeacesso.jpg" alt="cftv">
+                    </figure>
+                    <div class="card-back">
+                        <figcaption>Manutenção e instalação de Controle de Acesso</figcaption>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+
+    <section class="contato container" id="contato">
+        <h2>Contato</h2>
+        <div class="grid icons">
+            <a target="_blank" href="https://github.com/vanessametonini">
+                <i class="fab fa-github"></i>
+            </a>
+            <a target="_blank" href="https://twitter.com/vanessametonini">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a target="_blank" href="https://linkedin.com/in/vanessametonini">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:vanessa.tonini@caelum.com.br">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </section>
+    <section class="Suporte container" id="Suporte">
+        <h2>Suporte</h2>
+        <div class="grid suporte">
+            <div class="box">
+                <ul>Nome:</ul>
+                <ul>Contato:</ul>
+                <ul>Email:</ul>
+                <ul>Observações:</ul>
+
+                <button class="pedidos">
+                    Enviar Solicitação
+                </button>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
